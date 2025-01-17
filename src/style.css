@@ -1,0 +1,121 @@
+/* *{
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0, rgba(43, 75, 202, 0.881) 50%,  rgba(164, 174, 221, 0.26) 100% );
+} */
+
+/* body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+} */
+
+body {
+  /* background: rgb(199,224,213);
+  background: linear-gradient(90deg, rgba(199,224,213,1) 0%, rgba(185,212,203,1) 70%, rgba(136,181,169,1) 100%); */
+  /* background: rgb(199,224,213);
+  background: linear-gradient(90deg, rgba(199,224,213,1) 31%, rgba(185,212,203,1) 72%, rgba(136,181,169,1) 100%); */
+  /* background: rgb(203,228,217);
+  background: linear-gradient(90deg, rgba(203,228,217,1) 31%, rgba(157,188,178,1) 72%, rgba(95,154,138,1) 100%); */
+  background: rgb(224,215,219);
+background: radial-gradient(circle, rgba(224,215,219,1) 0%, rgba(156,187,177,1) 50%);
+}
+
+
+h1, h2, p{
+  color: #ffff;
+  font-family: "Roboto Condensed", serif;
+  /* font-weight: 100; */
+}
+header h1{
+  color: #ffffff;
+  font-size: 2.4rem;
+  font-weight: 200;
+  /* letter-spacing: 0.5rem; */
+}
+
+.nav-btn{
+  display: flex;
+  padding-right: 5px;
+  gap: 10px;
+  width: 20%;
+}
+
+button{
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background: transparent;
+  color:  white;
+  width: 100%;
+}
+
+.main button{
+  padding: 10px;
+  width: fit-content;
+}
+
+
+.main h1 {
+  color: #5B6658;
+  font-size: 5rem;
+  margin: 0;
+  padding-top: 50px;
+}
+h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.main h1, h2{
+  font-family: "Markazi Text", serif;
+}
+
+.main p{
+  font-weight: 200;
+}
+.home-page{
+  padding: 10px 90px;
+}
+
+.home-page .header {
+  display: flex;    
+  justify-content: space-between;
+}
+
+
+
+.header{
+  display: flex;;
+  align-items: center;
+  justify-content: center
+}
+
+/* main  */
+main{
+  display: flex;
+  /* gap: 50px; */
+  width: 100%;
+}
+.main{
+  width: 40%;
+}
+.img{
+  height: 100%;
+  width: 50%;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+
+.footer{      
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  position: fixed;    
+  padding: 5px 70px;
+}
+
+.footer-btn{
+  /* width: 100vw; */
+  display: flex;
+  justify-content: space-around;
+}
