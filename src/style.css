@@ -50,6 +50,9 @@ button{
 .main button{
   padding: 10px;
   width: fit-content;
+  background-color: #7C9A90;
+  border-color: transparent;
+  font-weight: 600;
 }
 
 
