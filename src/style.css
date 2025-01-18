@@ -64,7 +64,7 @@ button{
   display: flex;
   padding-right: 5px;
   gap: 10px;
-  width: 20%;
+  /* width: 20%; */
 }
 
 #main button{
@@ -130,31 +130,46 @@ img{
 
 /**************** Responsive *********************/
 
-/* @media (768px >= width >= 494px ) {
-  #home-page{
-    padding: 0 30px ;
-    /* background-color: red; */
+
+@media ( width <= 480px) {
+
+  #header h1{
+    font-size: 1.5rem;
+  }
+  .nav-btn{
+    width: noraml;
+  }
+  main{
+    display: block;
+    /* width: 100%; */
+  }
+  #main {
+    width: 100%;
   }
 
-  #home-page .main-heading{
-    width: 40vw;
+  #main h1 {
+    padding-top: 2%;
+    font-size: 3rem;
   }
-  #main h1{
-    padding-top: 10px;
-    font-size: 3.3rem;
+  #main p {
+    width:  80%;
+    font-size: 1rem;
   }
-  #main h2{
-    font-size: 1.3rem;
+  #main button{
+    margin-top: 4%;
+  }
+  img{
+    display:flow-root;
+    margin-left: 25%;
   }
   .img{
-    padding-top: 20px;
-    padding-left: 3px;
-    width: 80%;
+    position: absolute;
+    top: 65%;
+    z-index: -1;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 70%;
+    height: 70%; 
   }
-} */
-
-@media ( width <= 480) {
-  body{
-    background-color: red;
-}
 }
