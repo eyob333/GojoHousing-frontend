@@ -134,6 +134,9 @@ img{
 
 
 @media ( width <= 480px) {
+  * {
+    overflow-x:hidden ;
+  }
   #header h1{
     font-size: 1.5rem;
   }
@@ -161,7 +164,7 @@ img{
   }
   img{
     display:flow-root;
-    margin-left: 15%;
+    margin-left: 20%;
   }
   .img{
     position: absolute;
