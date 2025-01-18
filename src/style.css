@@ -166,7 +166,7 @@ img{
   }
   .img{
     position: absolute;
-    top: 65%;
+    top: 300px;
     z-index: -1;
     margin: 0;
     border: 0;
