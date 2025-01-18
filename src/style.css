@@ -134,7 +134,7 @@ img{
 
 
 @media ( width <= 480px) {
-  * {
+  img {
     overflow-x:hidden ;
   }
   #header h1{
