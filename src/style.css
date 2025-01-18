@@ -44,7 +44,7 @@ button{
 /******>>>>>>>>********* Section *******<<<<<<<<**********/
 
 #home-page{
-  padding: 10px 90px;
+  padding: .1% 5%;
 }
 /**************** Header *********************/
 #header{
@@ -103,6 +103,7 @@ main{
   width: 40%;
 }
 .img{
+  padding-top: 10%;
   height: 100%;
   width: 50%;
 }
@@ -129,7 +130,7 @@ img{
 
 /**************** Responsive *********************/
 
-@media (768px >= width >= 494px ) {
+/* @media (768px >= width >= 494px ) {
   #home-page{
     padding: 0 30px ;
     /* background-color: red; */
@@ -150,8 +151,10 @@ img{
     padding-left: 3px;
     width: 80%;
   }
-}
+} */
 
 @media ( width <= 480) {
-  
+  body{
+    background-color: red;
+}
 }
