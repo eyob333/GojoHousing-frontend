@@ -134,7 +134,6 @@ img{
 
 
 @media ( width <= 480px) {
-
   #header h1{
     font-size: 1.5rem;
   }
@@ -162,11 +161,11 @@ img{
   }
   img{
     display:flow-root;
-    margin-left: 10%;
+    margin-left: 20%;
   }
   .img{
     position: absolute;
-    top: 300px;
+    top: 280px;
     z-index: -1;
     margin: 0;
     border: 0;
